@@ -5376,6 +5376,19 @@
 					<xsl:variable name ="cAuthorMiddleName">
 						<xsl:value-of select ="count(b:Middle)"/>
 					</xsl:variable>
+          <xsl:choose>
+						<xsl:when test="$cAuthorLastName=1">
+							<xsl:value-of select="b:Last"/>
+							<xsl:choose>
+								<xsl:when test="$cTitle!=0 or $cJournalName!=0 or $cVolume!=0 or $cIssue!=0 or $cYear!=0 or $cPages!=0">
+									<xsl:call-template name ="templ_prop_ListSeparator"/>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:call-template name ="templ_prop_Dot"/>
+								</xsl:otherwise>
+							</xsl:choose>
+						</xsl:when>
+					</xsl:choose>
 					<xsl:choose>
 						<xsl:when test="$cAuthorFirstName=1">
 							<xsl:choose>
@@ -5429,19 +5442,7 @@
 							</xsl:choose>
 						</xsl:when>
 					</xsl:choose>
-					<xsl:choose>
-						<xsl:when test="$cAuthorLastName=1">
-							<xsl:value-of select="b:Last"/>
-							<xsl:choose>
-								<xsl:when test="$cTitle!=0 or $cJournalName!=0 or $cVolume!=0 or $cIssue!=0 or $cYear!=0 or $cPages!=0">
-									<xsl:call-template name ="templ_prop_ListSeparator"/>
-								</xsl:when>
-								<xsl:otherwise>
-									<xsl:call-template name ="templ_prop_Dot"/>
-								</xsl:otherwise>
-							</xsl:choose>
-						</xsl:when>
-					</xsl:choose>
+					
 				</xsl:for-each>
 			</xsl:when>
 
@@ -5464,7 +5465,14 @@
 							<xsl:call-template name ="templ_prop_Space"/>
 						</xsl:when>
 					</xsl:choose>
-
+					<xsl:choose>
+						<xsl:when test="$cAuthorLastName=1">
+							<xsl:value-of select="b:Last"/>
+							<xsl:if test="((position()+1)!=$cAuthors) and (position()&lt;$cAuthors)">
+								<xsl:call-template name ="templ_prop_ListSeparator"/>
+							</xsl:if>
+						</xsl:when>
+					</xsl:choose>
 					<xsl:choose>
 						<xsl:when test="$cAuthorFirstName=1">
 							<xsl:choose>
@@ -5479,6 +5487,8 @@
 									<xsl:call-template name ="templ_prop_Space"/>
 								</xsl:when>
 								<xsl:otherwise>
+                  <xsl:call-template name ="templ_prop_ListSeparator"/>
+									<xsl:call-template name ="templ_prop_Space"/>
 									<xsl:call-template name="splitAuthorSpace">
 										<xsl:with-param name ="first">
 											<xsl:call-template name="right-trim">
@@ -5517,14 +5527,7 @@
 							</xsl:choose>
 						</xsl:when>
 					</xsl:choose>
-					<xsl:choose>
-						<xsl:when test="$cAuthorLastName=1">
-							<xsl:value-of select="b:Last"/>
-							<xsl:if test="((position()+1)!=$cAuthors) and (position()&lt;$cAuthors)">
-								<xsl:call-template name ="templ_prop_ListSeparator"/>
-							</xsl:if>
-						</xsl:when>
-					</xsl:choose>
+					
 				</xsl:for-each>
 				<xsl:choose>
 					<xsl:when test="$cTitle!=0 or $cJournalName!=0 or $cVolume!=0 or $cIssue!=0 or $cYear!=0 or $cPages!=0">
