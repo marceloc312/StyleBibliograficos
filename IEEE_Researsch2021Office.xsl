@@ -6504,6 +6504,21 @@
 		</xsl:choose>
 	</xsl:template>
 
+	<xsl:template name="BibDisplayDOI">
+		<xsl:variable name="cDOI">
+			<xsl:value-of select="count(b:DOI)"/>
+		</xsl:variable>
+		<xsl:if test ="$cDOI!=0">
+			<xsl:call-template name="templ_prop_OpenQuote"/>
+			<xsl:call-template name="right-trim">
+				<xsl:with-param name ="s" select="b:DOI"/>
+			</xsl:call-template>
+			<xsl:call-template name ="List_Separator_NoSpace"/>
+			<xsl:call-template name="templ_prop_CloseQuote"/>
+			<xsl:call-template name ="templ_prop_Space"/>
+		</xsl:if>
+	</xsl:template>
+
 	<xsl:template name="BibDisplayComments">
 		<xsl:variable name="cComments">
 			<xsl:value-of select="count(b:Comments)"/>
@@ -7538,6 +7553,7 @@
 							<xsl:call-template name = "BibDisplayYearBC"/>
 							<xsl:call-template name ="BibDisplayPages"/>
 							<xsl:call-template name = "BibDisplayComments"/>
+							<xsl:call-template name = "BibDisplayDOI"/>
 						</xsl:element>
 					</xsl:element>
 				</xsl:element>
@@ -7691,7 +7707,9 @@
 							<xsl:call-template name ="BibDisplayIssueJournal"/>
 							<xsl:call-template name="BibDisplayPagesJournal"/>
 							<xsl:call-template name = "BibDisplayDayMonthYearWebSiteJournal"/>
+							
 							<xsl:call-template name ="BibDisplayComments"/>
+							<xsl:call-template name ="BibDisplayDOI"/>
 						</xsl:element>
 					</xsl:element>
 				</xsl:element>
