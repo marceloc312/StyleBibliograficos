@@ -24,136 +24,136 @@
       <xsl:when test="b:StyleNameLocalized">
         <xsl:choose>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1033'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1025'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1037'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1041'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='2052'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1028'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1042'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1036'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1040'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='3082'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1043'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1031'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1046'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1049'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1035'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1032'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1081'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1054'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1057'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1086'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1066'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1053'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1069'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1027'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1030'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1110'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1044'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1061'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1062'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1063'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1045'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='2070'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1029'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1055'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1038'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1048'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1058'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1026'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1050'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1087'">
             <xsl:text>Электр және электроника инженерлері институты</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='2074'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='3098'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1051'">
-            <xsl:text>IEEE Researsch</xsl:text>
+            <xsl:text>IEEE Research</xsl:text>
           </xsl:when>
           <xsl:when test="b:StyleNameLocalized/b:Lcid='1060'">
-            <xsl:text>Način citiranja IEEE Researsch</xsl:text>
+            <xsl:text>Način citiranja IEEE Research</xsl:text>
           </xsl:when>
         </xsl:choose>
       </xsl:when>
@@ -596,7 +596,8 @@
         <xsl:with-param name="LCID" select="$LCID"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Strings/b:AccessedCap"/>
+    <!--<xsl:value-of select="/*/b:Locals/b:Local[@LCID=$_LCID]/b:Strings/b:AccessedCap"/>-->
+    <xsl:value-of select="'Acesso em: '"/>
   </xsl:template>
 
   <xsl:template name="templ_str_OnlineCap" >
@@ -2133,11 +2134,11 @@
   </xsl:template>
 
   <xsl:template name ="BibDisplayStrOnline">
-    <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+    <!--<xsl:call-template name ="templ_prop_SecondaryOpen"/>
     <xsl:call-template name ="templ_str_OnlineCap"/>
     <xsl:call-template name ="templ_prop_SecondaryClose"/>
     <xsl:call-template name ="templ_prop_Dot"/>
-    <xsl:call-template name ="templ_prop_Space"/>
+    <xsl:call-template name ="templ_prop_Space"/>-->
   </xsl:template>
 
   <xsl:template name ="BibDisplayStrFilm">
@@ -2461,7 +2462,7 @@
       <xsl:value-of select="count(b:Year)"/>
     </xsl:variable>
     <xsl:if test ="$cTitle!=0">
-      <xsl:call-template name="templ_prop_OpenQuote"/>
+      <!--<xsl:call-template name="templ_prop_OpenQuote"/>-->
       <xsl:call-template name="right-trim">
         <xsl:with-param name ="s" select="b:Title"/>
       </xsl:call-template>
@@ -2469,11 +2470,11 @@
       <xsl:choose>
         <xsl:when test="$cJournalName!=0 or $cVolume!=0 or $cIssue!=0 or $cPages!=0 or $cYear!=0 ">
           <xsl:call-template name ="List_Separator_NoSpace"/>
-          <xsl:call-template name="templ_prop_CloseQuote"/>
+          <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
           <xsl:call-template name ="templ_prop_Space"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:call-template name="templ_prop_CloseQuote"/>
+          <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
           <xsl:call-template name ="templ_prop_Dot"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -2498,19 +2499,19 @@
       <xsl:value-of select="count(b:Year)"/>
     </xsl:variable>
     <xsl:if test ="$cTitle!=0">
-      <xsl:call-template name="templ_prop_OpenQuote"/>
+      <!--<xsl:call-template name="templ_prop_OpenQuote"/>-->
       <xsl:call-template name="right-trim">
         <xsl:with-param name ="s" select="b:Title"/>
       </xsl:call-template>
 
       <xsl:choose>
         <xsl:when test="$cVolume!=0 or $cIssue!=0 or $cPages!=0 or $cYear!=0 ">
-          <xsl:call-template name="templ_prop_CloseQuote"/>
+          <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
           <xsl:call-template name ="List_Separator_NoSpace"/>
           <xsl:call-template name ="templ_prop_Space"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:call-template name="templ_prop_CloseQuote"/>
+          <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
           <xsl:call-template name ="templ_prop_Dot"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -6224,7 +6225,7 @@
     </xsl:variable>
 
     <xsl:if test ="$cTitle!=0">
-      <xsl:call-template name="templ_prop_OpenQuote"/>
+      <!--<xsl:call-template name="templ_prop_OpenQuote"/>-->
       <xsl:call-template name="right-trim">
         <xsl:with-param name ="s" select="b:Title"/>
       </xsl:call-template>
@@ -6233,11 +6234,11 @@
           <xsl:choose>
             <xsl:when test="$cBookTitle!=0 or $cEdition!=0 or $cVolume!=0 or $cCity!=0 or $cStateProvince!=0 or $cPublisher!=0 or $cYear!=0 or $cPages!=0">
               <xsl:call-template name ="List_Separator_NoSpace"/>
-              <xsl:call-template name="templ_prop_CloseQuote"/>
+              <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
               <xsl:call-template name ="templ_prop_Space"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:call-template name="templ_prop_CloseQuote"/>
+              <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
               <xsl:call-template name ="templ_prop_Dot"/>
             </xsl:otherwise>
           </xsl:choose>
@@ -6246,11 +6247,11 @@
           <xsl:choose>
             <xsl:when test="$cBookTitle!=0 or $cEdition!=0 or $cVolume!=0 or $cEditor!=0 or $cCity!=0 or $cStateProvince!=0 or $cPublisher!=0 or $cYear!=0 or $cPages!=0">
               <xsl:call-template name ="List_Separator_NoSpace"/>
-              <xsl:call-template name="templ_prop_CloseQuote"/>
+              <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
               <xsl:call-template name ="templ_prop_Space"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:call-template name="templ_prop_CloseQuote"/>
+              <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
               <xsl:call-template name ="templ_prop_Dot"/>
             </xsl:otherwise>
           </xsl:choose>
@@ -7190,7 +7191,7 @@
             <xsl:when test="$cMonthAccessed!=0">
               <xsl:if test="$cYearAccessed!=0">
                 <xsl:call-template name ="templ_prop_Space"/>
-                <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+                <!--<xsl:call-template name ="templ_prop_SecondaryOpen"/>-->
                 <xsl:call-template name ="FindReplaceString">
                   <xsl:with-param name="originalString" select="string($str_AccessedCap)"/>
                   <xsl:with-param name="stringToBeReplaced" select="' %1'"/>
@@ -7201,19 +7202,19 @@
                 <xsl:value-of select="b:MonthAccessed"/>
                 <xsl:call-template name ="templ_prop_Space"/>
                 <xsl:value-of select="b:YearAccessed"/>
-                <xsl:call-template name ="templ_prop_SecondaryClose"/>
+                <!--<xsl:call-template name ="templ_prop_SecondaryClose"/>-->
               </xsl:if>
             </xsl:when>
             <xsl:otherwise>
               <xsl:call-template name ="templ_prop_Space"/>
-              <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+              <!--<xsl:call-template name ="templ_prop_SecondaryOpen"/>-->
               <xsl:call-template name ="FindReplaceString">
                 <xsl:with-param name="originalString" select="string($str_AccessedCap)"/>
                 <xsl:with-param name="stringToBeReplaced" select="' %1'"/>
                 <xsl:with-param name="stringReplacement" select="$prop_Space"/>
               </xsl:call-template>
               <xsl:value-of select="b:YearAccessed"/>
-              <xsl:call-template name ="templ_prop_SecondaryClose"/>
+              <!--<xsl:call-template name ="templ_prop_SecondaryClose"/>-->
             </xsl:otherwise>
           </xsl:choose>
         </xsl:when>
@@ -7222,7 +7223,7 @@
             <xsl:when test="$cMonthAccessed!=0">
               <xsl:if test="$cYearAccessed!=0">
                 <xsl:call-template name ="templ_prop_Space"/>
-                <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+                <!--<xsl:call-template name ="templ_prop_SecondaryOpen"/>-->
                 <xsl:call-template name ="FindReplaceString">
                   <xsl:with-param name="originalString" select="string($str_AccessedCap)"/>
                   <xsl:with-param name="stringToBeReplaced" select="' %1'"/>
@@ -7231,19 +7232,19 @@
                 <xsl:value-of select="b:MonthAccessed"/>
                 <xsl:call-template name ="templ_prop_Space"/>
                 <xsl:value-of select="b:YearAccessed"/>
-                <xsl:call-template name ="templ_prop_SecondaryClose"/>
+                <!--<xsl:call-template name ="templ_prop_SecondaryClose"/>-->
               </xsl:if>
             </xsl:when>
             <xsl:otherwise>
               <xsl:call-template name ="templ_prop_Space"/>
-              <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+              <!--<xsl:call-template name ="templ_prop_SecondaryOpen"/>-->
               <xsl:call-template name ="FindReplaceString">
                 <xsl:with-param name="originalString" select="string($str_AccessedCap)"/>
                 <xsl:with-param name="stringToBeReplaced" select="' %1'"/>
                 <xsl:with-param name="stringReplacement" select="$prop_Space"/>
               </xsl:call-template>
               <xsl:value-of select="b:YearAccessed"/>
-              <xsl:call-template name ="templ_prop_SecondaryClose"/>
+              <!--<xsl:call-template name ="templ_prop_SecondaryClose"/>-->
             </xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
@@ -7359,12 +7360,12 @@
       <xsl:value-of select="count(b:Title)"/>
     </xsl:variable>
     <xsl:if test ="$cTitle!=0">
-      <xsl:call-template name="templ_prop_OpenQuote"/>
+      <!--<xsl:call-template name="templ_prop_OpenQuote"/>-->
       <xsl:call-template name="right-trim">
         <xsl:with-param name ="s" select="b:Title"/>
       </xsl:call-template>
       <xsl:call-template name ="List_Separator_NoSpace"/>
-      <xsl:call-template name="templ_prop_CloseQuote"/>
+      <!--<xsl:call-template name="templ_prop_CloseQuote"/>-->
       <xsl:call-template name ="templ_prop_Space"/>
     </xsl:if>
   </xsl:template>
@@ -7432,12 +7433,16 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="BibURL">
+    <xsl:value-of select="b:URL"/>
+  </xsl:template>
+
   <xsl:template name="BibDisplayURL">
     <xsl:variable name="cURL">
       <xsl:value-of select="count(b:URL)"/>
     </xsl:variable>
     <xsl:if test ="$cURL!=0">
-      <xsl:text>Available:</xsl:text>
+      <!--<xsl:text>Available:</xsl:text>-->
       <xsl:call-template name ="templ_prop_Space"/>
       <xsl:value-of select="b:URL"/>
       <xsl:call-template name ="templ_prop_Dot"/>
@@ -7585,7 +7590,9 @@
               <xsl:call-template name ="BibDisplayAuthorBook">
                 <xsl:with-param name ="DisplayEditorIfAuthorUnavailale" select="'true'" />
               </xsl:call-template>
-              <xsl:call-template name = "BibDisplayTitleBook"/>
+              <b>
+                <xsl:call-template name = "BibDisplayTitleBook"/>
+              </b>
               <xsl:call-template name = "BibDisplayEdition"/>
               <xsl:call-template name="BibDisplayVolumeBook"/>
               <xsl:call-template name="BibDisplayEditorBook"/>
@@ -7639,7 +7646,9 @@
               <xsl:call-template name = "BibDisplayAuthorBookSection">
                 <xsl:with-param name ="DisplayEditorIfAuthorUnavailale" select="'true'" />
               </xsl:call-template>
-              <xsl:call-template name = "BibDisplayTitleBC"/>
+              <b>
+                <xsl:call-template name = "BibDisplayTitleBC"/>
+              </b>
               <xsl:call-template name ="BibDisplayBookTitle"/>
               <xsl:call-template name = "BibDisplayEdition"/>
               <xsl:call-template name="BibDisplayVolumeBook"/>
@@ -7727,7 +7736,9 @@
               <xsl:call-template name = "BibDisplayAuthorJArtcicle">
                 <xsl:with-param name ="DisplayEditorIfAuthorUnavailale" select="'true'" />
               </xsl:call-template>
-              <xsl:call-template name = "BibDisplayTitleJournal"/>
+              <b>
+                <xsl:call-template name = "BibDisplayTitleJournal"/>
+              </b>
               <i>
                 <xsl:call-template name ="BibDisplayJournalName"/>
               </i>
@@ -7778,7 +7789,9 @@
               <xsl:call-template name = "BibDisplayAuthorJArtcicle">
                 <xsl:with-param name ="DisplayEditorIfAuthorUnavailale" select="'true'" />
               </xsl:call-template>
-              <xsl:call-template name = "BibDisplayTitleAP"/>
+              <b>
+                <xsl:call-template name = "BibDisplayTitleAP"/>
+              </b>
               <i>
                 <xsl:call-template name ="BibDisplayJournalNameAP"/>
               </i>
@@ -7797,7 +7810,7 @@
               </xsl:element>
               <!--COMENTÁRIOS-->
               <xsl:call-template name = "BibDisplayComments"/>
-              
+
             </xsl:element>
           </xsl:element>
         </xsl:element>
@@ -7998,11 +8011,26 @@
             <xsl:element name="p">
               <xsl:call-template name = "BibAddParagraphAttributes"/>
               <xsl:call-template name = "BibDisplayAuthorWebsite"/>
-              <xsl:call-template name ="BibDisplayTitleWebSite"/>
-              <xsl:call-template name ="BibDisplayProductionCompanywebsite"/>
+              <b>
+                <xsl:call-template name ="BibDisplayTitleWebSite"/>
+              </b>
+              <i>
+                <xsl:call-template name ="BibDisplayProductionCompanywebsite"/>
+              </i>
               <xsl:call-template name = "BibDisplayDayMonthYearWebSiteJournal"/>
               <xsl:call-template name ="BibDisplayStrOnline"/>
-              <xsl:call-template name ="BibDisplayURL"/>
+              <xsl:value-of select="'Disponível em:'"/>
+
+              <xsl:element name="a">
+                <xsl:attribute name="href">
+                  <xsl:call-template name ="BibURL"/>
+                </xsl:attribute>
+                <xsl:call-template name ="BibDisplayURL"/>
+
+              </xsl:element>
+              <!--<a href="{b:Source/b:URL}">
+                <xsl:call-template name ="BibDisplayURL"/>
+              </a>-->
               <xsl:call-template name ="BibDisplayAccessedDates"/>
             </xsl:element>
           </xsl:element>
@@ -8236,6 +8264,7 @@
         </style>
       </head>
       <body>
+
         <xsl:element name="table">
           <xsl:attribute name="class">
             <xsl:value-of select="'MsoBibliography'"/>
@@ -8249,6 +8278,7 @@
             </xsl:apply-templates>
           </xsl:for-each>
         </xsl:element>
+
       </body>
     </html>
   </xsl:template>
@@ -8261,6 +8291,7 @@
   <xsl:template name="BibRefOrder">
     <xsl:call-template name ="templ_prop_SecondaryOpen"/>
     <xsl:value-of select="b:RefOrder"/>
+    <xsl:value-of select="'.'"/>
     <xsl:call-template name="templ_prop_SecondaryClose"/>
     <xsl:call-template name ="templ_prop_Space"/>
   </xsl:template>
@@ -8280,68 +8311,80 @@
       </xsl:variable>
       <xsl:choose>
         <xsl:when test="$SourceType = 'Book' or 
-                $SourceType = 'BookSection' or
-                $SourceType = 'Film' or
-				$SourceType = 'Case' or
-                $SourceType = 'JournalArticle' or
-                $SourceType = 'ArticleInAPeriodical' or
-			    $SourceType = 'Misc' or
-			    $SourceType = 'ElectronicSource' or
-			    $SourceType = 'Report' or
-				$SourceType = 'DocumentFromInternetSite' or
-			    $SourceType = 'Art' or
-			    $SourceType = 'SoundRecording' or
-				$SourceType = 'Performance' or
-				$SourceType = 'Interview' or
-			    $SourceType = 'InternetSite' or
-				$SourceType = 'Patent' or
-                $SourceType = 'ConferenceProceedings' ">
+                        $SourceType = 'BookSection' or
+                        $SourceType = 'Film' or
+                        $SourceType = 'Case' or
+                        $SourceType = 'JournalArticle' or
+                        $SourceType = 'ArticleInAPeriodical' or
+                        $SourceType = 'Misc' or
+                        $SourceType = 'ElectronicSource' or
+                        $SourceType = 'Report' or
+                        $SourceType = 'DocumentFromInternetSite' or
+                        $SourceType = 'Art' or
+                        $SourceType = 'SoundRecording' or
+                        $SourceType = 'Performance' or
+                        $SourceType = 'Interview' or
+                        $SourceType = 'InternetSite' or
+                        $SourceType = 'Patent' or
+                        $SourceType = 'ConferenceProceedings' ">
           <html xmlns="http://www.w3.org/TR/REC-html40">
             <body>
 
-              <xsl:variable name ="cPages">
-                <xsl:value-of select="count(b:Pages)" />
+              <xsl:variable name ="titleSource">
+                <xsl:apply-templates select="b:Source">
+                  <xsl:sort select="b:Source/b:RefOrder" order="ascending" data-type="number"/>
+                </xsl:apply-templates>
               </xsl:variable>
+              <b>
+                <sup>
+                  <a href="#[{b:Source/b:RefOrder}.]" title="{$titleSource}">
 
-              <xsl:variable name ="initValueOfPages">
-                <xsl:value-of select="b:Pages"/>
-              </xsl:variable>
+                    <xsl:variable name ="cPages">
+                      <xsl:value-of select="count(b:Pages)" />
+                    </xsl:variable>
 
-              <xsl:variable name ="pages">
-                <xsl:choose>
-                  <xsl:when test="contains($initValueOfPages, '-')">
-                    <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
-                  </xsl:when>
-                  <xsl:when test="contains($initValueOfPages, ',')">
-                    <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="concat('p. ',$initValueOfPages)"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
+                    <xsl:variable name ="initValueOfPages">
+                      <xsl:value-of select="b:Pages"/>
+                    </xsl:variable>
+
+                    <xsl:variable name ="pages">
+                      <xsl:choose>
+                        <xsl:when test="contains($initValueOfPages, '-')">
+                          <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
+                        </xsl:when>
+                        <xsl:when test="contains($initValueOfPages, ',')">
+                          <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="concat('p. ',$initValueOfPages)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:variable>
 
 
-              <xsl:if test="b:FirstAuthor">
-                <xsl:call-template name ="templ_prop_SecondaryOpen"/>
-              </xsl:if>
+                    <xsl:if test="b:FirstAuthor">
+                      <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+                    </xsl:if>
 
-              <xsl:call-template  name="RefOrder"/>
+                    <xsl:call-template  name="RefOrder"/>
 
-              <xsl:if test="count(b:Pages)>0">
-                <xsl:call-template name="displayPageOrPages" >
-                  <xsl:with-param name="pages" select ="$pages"/>
-                </xsl:call-template>
-              </xsl:if>
+                    <xsl:if test="count(b:Pages)>0">
+                      <xsl:call-template name="displayPageOrPages" >
+                        <xsl:with-param name="pages" select ="$pages"/>
+                      </xsl:call-template>
+                    </xsl:if>
 
-              <xsl:if test="b:LastAuthor">
-                <xsl:call-template name="templ_prop_SecondaryClose"/>
-              </xsl:if>
+                    <xsl:if test="b:LastAuthor">
+                      <xsl:call-template name="templ_prop_SecondaryClose"/>
+                    </xsl:if>
 
-              <xsl:if test="not(b:LastAuthor)">
-                <xsl:call-template name="templ_prop_ListSeparator"/>
-                <xsl:call-template name ="templ_prop_Space"/>
-              </xsl:if>
+                    <xsl:if test="not(b:LastAuthor)">
+                      <xsl:call-template name="templ_prop_ListSeparator"/>
+                      <xsl:call-template name ="templ_prop_Space"/>
+                    </xsl:if>
+                  </a>
+                </sup>
+              </b>
             </body>
           </html>
         </xsl:when>
