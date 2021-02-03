@@ -254,7 +254,7 @@
               </b:ImportantField>
 
               <b:ImportantField>
-                <xsl:text>b:DOI</xsl:text>
+                <xsl:text>b:URL</xsl:text>
               </b:ImportantField>
             </xsl:when>
 
@@ -6513,6 +6513,9 @@
   </xsl:template>
 
   <xsl:template name="BibDisplayDOI">
+    <xsl:variable name="cURL">
+      <xsl:value-of select="count(b:URL)"/>
+    </xsl:variable>
     <xsl:variable name="cDOI">
       <xsl:value-of select="count(b:DOI)"/>
     </xsl:variable>
@@ -6529,19 +6532,39 @@
           </xsl:call-template>
         </xsl:otherwise>
       </xsl:choose>
-
+    </xsl:if>
+    <xsl:if test ="$cURL!=0 and $cDOI=0">
+      <xsl:choose>
+        <xsl:when test="contains(b:URL,'doi.org/')">
+          <xsl:call-template name="right-trim">
+            <xsl:with-param name ="s" select="substring-after(b:URL, 'doi.org/')" />
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="right-trim">
+            <xsl:with-param name ="s" select="b:URL" />
+          </xsl:call-template>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
+
   <xsl:template name="BibDisplayLabelDOI">
+    <xsl:variable name="cURL">
+      <xsl:value-of select="count(b:URL)"/>
+    </xsl:variable>
     <xsl:variable name="cDOI">
       <xsl:value-of select="count(b:DOI)"/>
     </xsl:variable>
-    <xsl:if test ="$cDOI!=0">
+    <xsl:if test ="$cURL!=0 or $cDOI!=0">
       <xsl:value-of select="'DOI: '"/>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="BibDisplayLinkDOI">
+    <xsl:variable name="cURL">
+      <xsl:value-of select="count(b:URL)"/>
+    </xsl:variable>
     <xsl:variable name="cDOI">
       <xsl:value-of select="count(b:DOI)"/>
     </xsl:variable>
@@ -6555,6 +6578,21 @@
         <xsl:otherwise>
           <xsl:call-template name="right-trim">
             <xsl:with-param name ="s" select="concat('https://doi.org/',b:DOI)" />
+          </xsl:call-template>
+        </xsl:otherwise>
+      </xsl:choose>
+
+    </xsl:if>
+    <xsl:if test ="$cURL!=0 and $cDOI=0">
+      <xsl:choose>
+        <xsl:when test="contains(b:URL,'doi.org/')">
+          <xsl:call-template name="right-trim">
+            <xsl:with-param name ="s" select="b:URL" />
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="right-trim">
+            <xsl:with-param name ="s" select="concat('https://doi.org/',b:URL)" />
           </xsl:call-template>
         </xsl:otherwise>
       </xsl:choose>
@@ -6988,6 +7026,7 @@
         <xsl:with-param name="pages" select ="$pages"/>
       </xsl:call-template>
       <xsl:call-template name ="templ_prop_Dot"/>
+      <xsl:call-template name ="templ_prop_Space"/>
     </xsl:if>
   </xsl:template>
 
@@ -7434,7 +7473,14 @@
   </xsl:template>
 
   <xsl:template name="BibURL">
-    <xsl:value-of select="b:URL"/>
+    <xsl:variable name ="vURL">
+      <xsl:call-template name="right-trim">
+        <xsl:with-param name ="s" select="b:URL" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:call-template name="left-trim">
+      <xsl:with-param name ="s" select="$vURL" />
+    </xsl:call-template>
   </xsl:template>
 
   <xsl:template name="BibDisplayURL">
@@ -7603,7 +7649,6 @@
               <xsl:call-template name = "BibDisplayPublisherBC"/>
               <xsl:call-template name = "BibDisplayYearBC"/>
               <xsl:call-template name ="BibDisplayPages"/>
-              <xsl:call-template name = "BibDisplayComments"/>
 
               <!--DOI-->
               <xsl:call-template name = "BibDisplayLabelDOI"/>
@@ -7658,7 +7703,7 @@
               <xsl:call-template name = "BibDisplayPublisherBC"/>
               <xsl:call-template name = "BibDisplayYearBC"/>
               <xsl:call-template name ="BibDisplayPages"/>
-
+                            
               <!--DOI-->
               <xsl:call-template name = "BibDisplayLabelDOI"/>
               <xsl:element name="a">
@@ -8335,56 +8380,55 @@
                   <xsl:sort select="b:Source/b:RefOrder" order="ascending" data-type="number"/>
                 </xsl:apply-templates>
               </xsl:variable>
-              <b>
+
+              <a href="#[{b:Source/b:RefOrder}.]" title="{$titleSource}" >
+
                 <sup>
-                  <a href="#[{b:Source/b:RefOrder}.]" title="{$titleSource}">
+                  <xsl:variable name ="cPages">
+                    <xsl:value-of select="count(b:Pages)" />
+                  </xsl:variable>
 
-                    <xsl:variable name ="cPages">
-                      <xsl:value-of select="count(b:Pages)" />
-                    </xsl:variable>
+                  <xsl:variable name ="initValueOfPages">
+                    <xsl:value-of select="b:Pages"/>
+                  </xsl:variable>
 
-                    <xsl:variable name ="initValueOfPages">
-                      <xsl:value-of select="b:Pages"/>
-                    </xsl:variable>
-
-                    <xsl:variable name ="pages">
-                      <xsl:choose>
-                        <xsl:when test="contains($initValueOfPages, '-')">
-                          <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
-                        </xsl:when>
-                        <xsl:when test="contains($initValueOfPages, ',')">
-                          <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:value-of select="concat('p. ',$initValueOfPages)"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:variable>
+                  <xsl:variable name ="pages">
+                    <xsl:choose>
+                      <xsl:when test="contains($initValueOfPages, '-')">
+                        <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
+                      </xsl:when>
+                      <xsl:when test="contains($initValueOfPages, ',')">
+                        <xsl:value-of select="concat('pp. ',$initValueOfPages)"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat('p. ',$initValueOfPages)"/>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
 
 
-                    <xsl:if test="b:FirstAuthor">
-                      <xsl:call-template name ="templ_prop_SecondaryOpen"/>
-                    </xsl:if>
+                  <xsl:if test="b:FirstAuthor">
+                    <xsl:call-template name ="templ_prop_SecondaryOpen"/>
+                  </xsl:if>
 
-                    <xsl:call-template  name="RefOrder"/>
+                  <xsl:call-template  name="RefOrder"/>
 
-                    <xsl:if test="count(b:Pages)>0">
-                      <xsl:call-template name="displayPageOrPages" >
-                        <xsl:with-param name="pages" select ="$pages"/>
-                      </xsl:call-template>
-                    </xsl:if>
+                  <xsl:if test="count(b:Pages)>0">
+                    <xsl:call-template name="displayPageOrPages" >
+                      <xsl:with-param name="pages" select ="$pages"/>
+                    </xsl:call-template>
+                  </xsl:if>
 
-                    <xsl:if test="b:LastAuthor">
-                      <xsl:call-template name="templ_prop_SecondaryClose"/>
-                    </xsl:if>
+                  <xsl:if test="b:LastAuthor">
+                    <xsl:call-template name="templ_prop_SecondaryClose"/>
+                  </xsl:if>
 
-                    <xsl:if test="not(b:LastAuthor)">
-                      <xsl:call-template name="templ_prop_ListSeparator"/>
-                      <xsl:call-template name ="templ_prop_Space"/>
-                    </xsl:if>
-                  </a>
+                  <xsl:if test="not(b:LastAuthor)">
+                    <xsl:call-template name="templ_prop_ListSeparator"/>
+                    <xsl:call-template name ="templ_prop_Space"/>
+                  </xsl:if>
                 </sup>
-              </b>
+              </a>
             </body>
           </html>
         </xsl:when>
